@@ -1,0 +1,106 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html][javascript][javascriptreact][json][jsonc][typescript][typescriptreact][yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "css.validate": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.linkedEditing": true,
+  "editor.suggestSelection": "first",
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "eslint.debug": false,
+  "eslint.lintTask.enable": true,
+  "eslint.nodePath": ".yarn/sdks",
+  "extensions.ignoreRecommendations": false,
+  "files.associations": {
+    ".env": "env",
+    ".env.local": "env"
+  },
+  "files.exclude": {
+    "**/*.tsbuildinfo": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/__pycache__/": true,
+    "**/CVS": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.hg/store/**": true,
+    "**/.idea/**": true,
+    "**/node_modules/**": true
+  },
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.mergeEditor": false,
+  "gitlens.advanced.fileHistoryFollowsRenames": true,
+  "jest.autoRun": "off",
+  "jest.jestCommandLine": "",
+  "jest.showCoverageOnLoad": true,
+  "less.validate": false,
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  "path-intellisense.mappings": {
+    "/teaser-images": "${workspaceFolder}/webapps/teaser/public/images"
+  },
+  "prettier.enable": true,
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.cjs",
+  "remote.extensionKind": {
+    "ms-azuretools.vscode-docker": "workspace"
+  },
+  "scss.validate": false,
+  "search.exclude": {
+    "**/*.code-search": true,
+    "**/.next": true,
+    "**/.pnp.*": true,
+    "**/.yarn": true,
+    "**/bower_components": true,
+    "**/build": true,
+    "**/coverage/": true,
+    "**/dist/": true,
+    "**/node_modules": true,
+    "**/out/": true,
+    "**/package-lock.json": true,
+    "*.svg": true,
+    "docs/": true,
+    "stats.html": true
+  },
+  "stylelint.packageManager": "yarn",
+  "svg.preview.mode": "svg",
+  "terminal.integrated.enableBell": true,
+  "todo-tree.filtering.excludeGlobs": ["**/node_modules/*/**", "**/images/**"],
+  "todo-tree.general.showActivityBarBadge": false,
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": false,
+  "todo-tree.general.statusBar": "top three",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.surveys.enabled": false,
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.commandCenter": true
+}
