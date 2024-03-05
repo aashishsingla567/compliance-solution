@@ -11,6 +11,11 @@
     "kisstkondoros.vscode-gutter-preview",
     "mkxml.vscode-filesize",
     "naumovs.color-highlight",
-    "pflannery.vscode-versionlens"
+    "pflannery.vscode-versionlens",
+    "redhat.vscode-yaml",
+    "stylelint.vscode-stylelint",
+    "wix.vscode-import-cost",
+    "yoavbls.pretty-ts-errors",
+    "aaron-bond.better-comments"
   ]
 }
