@@ -66,11 +66,7 @@
   "jest.showCoverageOnLoad": true,
   "less.validate": false,
   "merge-conflict.autoNavigateNextConflict.enabled": true,
-  "path-intellisense.mappings": {
-    "/teaser-images": "${workspaceFolder}/webapps/teaser/public/images"
-  },
   "prettier.enable": true,
-  "prettier.prettierPath": ".yarn/sdks/prettier/index.cjs",
   "remote.extensionKind": {
     "ms-azuretools.vscode-docker": "workspace"
   },
