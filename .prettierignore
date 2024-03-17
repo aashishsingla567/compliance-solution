@@ -1,0 +1,10 @@
+.pnp.js
+.yarn/
+.yalc/
+node_modules/
+build/
+reports/
+.next/
+out/
+.git/
+analyze/

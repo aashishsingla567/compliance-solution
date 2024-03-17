@@ -93,7 +93,6 @@
   },
   "stylelint.packageManager": "yarn",
   "svg.preview.mode": "svg",
-  "terminal.integrated.enableBell": true,
   "todo-tree.filtering.excludeGlobs": ["**/node_modules/*/**", "**/images/**"],
   "todo-tree.general.showActivityBarBadge": false,
   "todo-tree.general.showIconsInsteadOfTagsInStatusBar": false,
@@ -102,5 +101,9 @@
   "typescript.surveys.enabled": false,
   "typescript.tsdk": ".yarn/sdks/typescript/lib",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "window.commandCenter": true
+  "window.commandCenter": true,
+  "accessibility.signals.terminalBell": {
+    "sound": "on"
+  },
+  "terminal.integrated.enableVisualBell": true
 }
