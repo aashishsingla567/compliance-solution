@@ -1,16 +1,17 @@
 import { type AppType } from "next/app";
-import { Inter } from "next/font/google";
+import { Cambay } from "next/font/google";
+
+const cambay = Cambay({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "400", // Add this line
+});
 
 import "~/styles/globals.css";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
-
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
-    <main className={`font-sans ${inter.variable}`}>
+    <main className={cambay.className}>
       <Component {...pageProps} />
     </main>
   );

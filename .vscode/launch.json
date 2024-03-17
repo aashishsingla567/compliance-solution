@@ -12,7 +12,7 @@
       "internalConsoleOptions": "neverOpen",
       "disableOptimisticBPs": true,
       "cwd": "${workspaceFolder}",
-      "runtimeExecutable": "yarn",
+      "runtimeExecutable": "bun",
       "args": ["jest", "--runInBand", "--watchAll=false"]
     },
     {
