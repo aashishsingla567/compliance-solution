@@ -17,6 +17,9 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  images: {
+    domains: ["via.placeholder.com"],
+  },
 };
 
 export default config;
