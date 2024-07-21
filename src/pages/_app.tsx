@@ -8,11 +8,13 @@ const cambay = Cambay({
 });
 
 import "~/styles/globals.css";
+import Footer from "./footer";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <main className={cambay.className}>
       <Component {...pageProps} />
+      <Footer />
     </main>
   );
 };
