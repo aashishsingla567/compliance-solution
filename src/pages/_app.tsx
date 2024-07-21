@@ -8,17 +8,9 @@ const cambay = Cambay({
 });
 
 import "~/styles/globals.css";
-import Footer from "./footer";
-import LinkedinReviews from "./linkedin";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
-  return (
-    <main className={cambay.className}>
-      <Component {...pageProps} />
-      <LinkedinReviews />
-      <Footer />
-    </main>
-  );
+  return <Component {...pageProps} />;
 };
 
 export default MyApp;
