@@ -2,20 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+  @see
+  https://www.realtimecolors.com/?colors=241905-FFFEFE-1467E9-C6F3AB-6914eb&fonts=Inter-Inter%20Tight 
+*/
+
 @layer base {
   :root {
-    --text: 96 22% 9%;
-    --background: 120 100% 100%;
-    --primary: 92 42% 26%;
-    --secondary: 94 52% 70%;
-    --accent: 94 61% 44%;
+    --text: 0 0% 0%;
+    --background: 0 0% 100%;
+    --primary: 217 84% 50%;
+    --secondary: 98 75% 81%;
+    --accent: 264 84% 50%;
   }
-
   .dark {
-    --text: 96 22% 91%;
+    --text: 0 0% 100%;
     --background: 0 0% 0%;
-    --primary: 92 42% 74%;
-    --secondary: 94 52% 30%;
-    --accent: 94 61% 56%;
+    --primary: 217 84% 50%;
+    --secondary: 98 75% 19%;
+    --accent: 264 84% 50%;
   }
 }
