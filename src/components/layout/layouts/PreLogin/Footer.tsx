@@ -2,8 +2,8 @@ import MaxWidthContainer from "~/components/MaxWidthContainer";
 
 const Footer = () => {
   return (
-    <footer className="bg-base-300">
-      <MaxWidthContainer className="footer bg-base-300 p-10 text-base-content">
+    <footer data-theme="mytheme" className="bg-primary">
+      <MaxWidthContainer className="footer bg-primary p-10 text-base-content">
         <nav>
           <h6 className="footer-title">Services</h6>
           <a className="link-hover link">Branding</a>
@@ -58,6 +58,8 @@ const Footer = () => {
         </nav>
       </MaxWidthContainer>
     </footer>
+    // <div data-theme="mytheme">
+    // </div>
   );
 };
 

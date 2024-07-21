@@ -1,12 +1,10 @@
 import MaxWidthContainer from "~/components/MaxWidthContainer";
-import LeftSide from "./LeftSide";
-import RightSide from "./RightSide";
+import LandingSection from "./LandingSection";
 
 const HeroSection = () => {
   return (
     <MaxWidthContainer className="flex h-screen items-center justify-center">
-      <LeftSide />
-      <RightSide />
+      <LandingSection />
     </MaxWidthContainer>
   );
 };
