@@ -52,6 +52,9 @@ const config = {
 
     return config;
   },
+  images: {
+    domains: ["via.placeholder.com", "img.daisyui.com"],
+  },
 };
 
 export default config;
