@@ -14,3 +14,4 @@ reports
 **/.next
 *.d.ts
 **/archive
+next.config.js

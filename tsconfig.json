@@ -28,7 +28,8 @@
     "paths": {
       "~/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
-      "@tools/*": ["./src/tools/*"]
+      "@tools/*": ["./src/tools/*"],
+      "@assets/*": ["./src/assets/*"]
     }
   },
   "include": [
@@ -40,5 +41,6 @@
     "**/*.js",
     ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "next.config.js"],
+  "ignore": ["next.config.js"]
 }

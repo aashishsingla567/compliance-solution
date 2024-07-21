@@ -21,6 +21,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@types/eslint": "^8.56.2",
     "@types/node": "^20.11.20",
     "@types/react": "^18.2.57",
@@ -30,7 +31,7 @@
     "daisyui": "^4.12.10",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.1.0",
-    "husky": "^9.0.11",
+    "husky": "^9.1.1",
     "jscpd": "^3.5.10",
     "lint-staged": "^15.2.2",
     "postcss": "^8.4.34",
