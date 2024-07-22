@@ -14,12 +14,140 @@
     --primary: 217 84% 50%;
     --secondary: 98 75% 81%;
     --accent: 264 84% 50%;
+
+    background-color: hsl(var(--background));
   }
+
   .dark {
     --text: 0 0% 100%;
     --background: 0 0% 0%;
     --primary: 217 84% 50%;
     --secondary: 98 75% 19%;
     --accent: 264 84% 50%;
+
+    background-color: hsl(var(--background));
+  }
+
+  :root {
+    --text-50: 0 0% 95%;
+    --text-100: 0 0% 90%;
+    --text-200: 0 0% 80%;
+    --text-300: 0 0% 70%;
+    --text-400: 0 0% 60%;
+    --text-500: 0 0% 50%;
+    --text-600: 0 0% 40%;
+    --text-700: 0 0% 30%;
+    --text-800: 0 0% 20%;
+    --text-900: 0 0% 10%;
+    --text-950: 0 0% 5%;
+
+    --background-50: 0 0% 95%;
+    --background-100: 0 0% 90%;
+    --background-200: 0 0% 80%;
+    --background-300: 0 0% 70%;
+    --background-400: 0 0% 60%;
+    --background-500: 0 0% 50%;
+    --background-600: 0 0% 40%;
+    --background-700: 0 0% 30%;
+    --background-800: 0 0% 20%;
+    --background-900: 0 0% 10%;
+    --background-950: 0 0% 5%;
+
+    --primary-50: 217 84% 95%;
+    --primary-100: 216 84% 90%;
+    --primary-200: 217 84% 80%;
+    --primary-300: 217 84% 70%;
+    --primary-400: 217 84% 60%;
+    --primary-500: 217 84% 50%;
+    --primary-600: 217 84% 40%;
+    --primary-700: 217 84% 30%;
+    --primary-800: 217 84% 20%;
+    --primary-900: 216 84% 10%;
+    --primary-950: 217 84% 5%;
+
+    --secondary-50: 98 76% 95%;
+    --secondary-100: 98 76% 90%;
+    --secondary-200: 98 75% 80%;
+    --secondary-300: 98 75% 70%;
+    --secondary-400: 98 75% 60%;
+    --secondary-500: 98 75% 50%;
+    --secondary-600: 98 75% 40%;
+    --secondary-700: 98 75% 30%;
+    --secondary-800: 98 75% 20%;
+    --secondary-900: 98 76% 10%;
+    --secondary-950: 98 76% 5%;
+
+    --accent-50: 263 84% 95%;
+    --accent-100: 264 84% 90%;
+    --accent-200: 264 84% 80%;
+    --accent-300: 264 84% 70%;
+    --accent-400: 264 84% 60%;
+    --accent-500: 264 84% 50%;
+    --accent-600: 264 84% 40%;
+    --accent-700: 264 84% 30%;
+    --accent-800: 264 84% 20%;
+    --accent-900: 264 84% 10%;
+    --accent-950: 266 84% 5%;
+  }
+  .dark {
+    --text-50: 0 0% 5%;
+    --text-100: 0 0% 10%;
+    --text-200: 0 0% 20%;
+    --text-300: 0 0% 30%;
+    --text-400: 0 0% 40%;
+    --text-500: 0 0% 50%;
+    --text-600: 0 0% 60%;
+    --text-700: 0 0% 70%;
+    --text-800: 0 0% 80%;
+    --text-900: 0 0% 90%;
+    --text-950: 0 0% 95%;
+
+    --background-50: 0 0% 5%;
+    --background-100: 0 0% 10%;
+    --background-200: 0 0% 20%;
+    --background-300: 0 0% 30%;
+    --background-400: 0 0% 40%;
+    --background-500: 0 0% 50%;
+    --background-600: 0 0% 60%;
+    --background-700: 0 0% 70%;
+    --background-800: 0 0% 80%;
+    --background-900: 0 0% 90%;
+    --background-950: 0 0% 95%;
+
+    --primary-50: 217 84% 5%;
+    --primary-100: 216 84% 10%;
+    --primary-200: 217 84% 20%;
+    --primary-300: 217 84% 30%;
+    --primary-400: 217 84% 40%;
+    --primary-500: 217 84% 50%;
+    --primary-600: 217 84% 60%;
+    --primary-700: 217 84% 70%;
+    --primary-800: 217 84% 80%;
+    --primary-900: 216 84% 90%;
+    --primary-950: 217 84% 95%;
+
+    --secondary-50: 98 76% 5%;
+    --secondary-100: 98 76% 10%;
+    --secondary-200: 98 75% 20%;
+    --secondary-300: 98 75% 30%;
+    --secondary-400: 98 75% 40%;
+    --secondary-500: 98 75% 50%;
+    --secondary-600: 98 75% 60%;
+    --secondary-700: 98 75% 70%;
+    --secondary-800: 98 75% 80%;
+    --secondary-900: 98 76% 90%;
+    --secondary-950: 98 76% 95%;
+
+    --accent-50: 266 84% 5%;
+    --accent-100: 264 84% 10%;
+    --accent-200: 264 84% 20%;
+    --accent-300: 264 84% 30%;
+    --accent-400: 264 84% 40%;
+    --accent-500: 264 84% 50%;
+    --accent-600: 264 84% 60%;
+    --accent-700: 264 84% 70%;
+    --accent-800: 264 84% 80%;
+    --accent-900: 264 84% 90%;
+    --accent-950: 263 84% 95%;
   }
 }

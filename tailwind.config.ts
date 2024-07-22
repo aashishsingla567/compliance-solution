@@ -1,6 +1,4 @@
 import daisyui from "daisyui";
-import { type Config } from "tailwindcss";
-import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
   content: ["./src/**/*.tsx"],
@@ -9,11 +7,11 @@ export default {
   daisyui: {
     themes: [
       {
-        mytheme: {
-          primary: "#a991f7",
-          secondary: "#f6d860",
-          accent: "#37cdbe",
-          neutral: "#3d4451",
+        light: {
+          primary: "#1467eb",
+          secondxary: "#c5f3aa",
+          accent: "#6a14eb",
+          neutral: "#000000",
           "base-100": "#ffffff",
           info: "#3abff8",
           success: "#36d399",
@@ -21,15 +19,23 @@ export default {
           error: "#f87272",
         },
       },
-      "dark",
-      "cupcake",
+      {
+        dark: {
+          primary: "#1467eb",
+          secondxary: "#c5f3aa",
+          accent: "#6a14eb",
+          neutral: "#ffffff",
+          "base-100": "#000000",
+          info: "#3abff8",
+          success: "#36d399",
+          warning: "#fbbd23",
+          error: "#f87272",
+        },
+      },
     ],
   },
   theme: {
     extend: {
-      // fontFamily: {
-      //   sans: ["var(--font-sans)", ...fontFamily.sans],
-      // },
       fontSize: {
         sm: "0.750rem",
         base: "1rem",
@@ -40,18 +46,84 @@ export default {
         "5xl": "4.210rem",
       },
       fontFamily: {
-        sans: ["Cambay", ...fontFamily.sans],
+        heading: "Inter",
+        body: "Inter Tight",
       },
       fontWeight: {
         normal: "400",
         bold: "700",
       },
       colors: {
-        text: "hsl(var(--text))",
-        background: "hsl(var(--background))",
-        primary: "hsl(var(--primary))",
-        secondary: "hsl(var(--secondary))",
-        accent: "hsl(var(--accent))",
+        text: {
+          DEFAULT: "hsl(var(--text))",
+          50: "hsl(var(--text-50))",
+          100: "hsl(var(--text-100))",
+          200: "hsl(var(--text-200))",
+          300: "hsl(var(--text-300))",
+          400: "hsl(var(--text-400))",
+          500: "hsl(var(--text-500))",
+          600: "hsl(var(--text-600))",
+          700: "hsl(var(--text-700))",
+          800: "hsl(var(--text-800))",
+          900: "hsl(var(--text-900))",
+          950: "hsl(var(--text-950))",
+        },
+        background: {
+          DEFAULT: "hsl(var(--background))",
+          50: "hsl(var(--background-50))",
+          100: "hsl(var(--background-100))",
+          200: "hsl(var(--background-200))",
+          300: "hsl(var(--background-300))",
+          400: "hsl(var(--background-400))",
+          500: "hsl(var(--background-500))",
+          600: "hsl(var(--background-600))",
+          700: "hsl(var(--background-700))",
+          800: "hsl(var(--background-800))",
+          900: "hsl(var(--background-900))",
+          950: "hsl(var(--background-950))",
+        },
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          50: "hsl(var(--primary-50))",
+          100: "hsl(var(--primary-100))",
+          200: "hsl(var(--primary-200))",
+          300: "hsl(var(--primary-300))",
+          400: "hsl(var(--primary-400))",
+          500: "hsl(var(--primary-500))",
+          600: "hsl(var(--primary-600))",
+          700: "hsl(var(--primary-700))",
+          800: "hsl(var(--primary-800))",
+          900: "hsl(var(--primary-900))",
+          950: "hsl(var(--primary-950))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          50: "hsl(var(--secondary-50))",
+          100: "hsl(var(--secondary-100))",
+          200: "hsl(var(--secondary-200))",
+          300: "hsl(var(--secondary-300))",
+          400: "hsl(var(--secondary-400))",
+          500: "hsl(var(--secondary-500))",
+          600: "hsl(var(--secondary-600))",
+          700: "hsl(var(--secondary-700))",
+          800: "hsl(var(--secondary-800))",
+          900: "hsl(var(--secondary-900))",
+          950: "hsl(var(--secondary-950))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          50: "hsl(var(--accent-50))",
+          100: "hsl(var(--accent-100))",
+          200: "hsl(var(--accent-200))",
+          300: "hsl(var(--accent-300))",
+          400: "hsl(var(--accent-400))",
+          500: "hsl(var(--accent-500))",
+          600: "hsl(var(--accent-600))",
+          700: "hsl(var(--accent-700))",
+          800: "hsl(var(--accent-800))",
+          900: "hsl(var(--accent-900))",
+          950: "hsl(var(--accent-950))",
+        },
       },
     },
   },
