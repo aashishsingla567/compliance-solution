@@ -9,7 +9,7 @@ const MaxWidthContainer = ({
   as?: React.ElementType;
 }) => {
   return (
-    <Component className={cn("mx-auto max-w-6xl px-4", className)} {...props}>
+    <Component className={cn("mx-auto max-w-7xl px-4", className)} {...props}>
       {children}
     </Component>
   );

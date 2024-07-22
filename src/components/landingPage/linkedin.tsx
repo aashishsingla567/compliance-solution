@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MaxWidthContainer from "../MaxWidthContainer";
 
 // components/ClientSuccessStories.js
 const clientSuccessStories = [
@@ -62,7 +63,7 @@ const clientSuccessStories = [
 
 const LinkedinReviews = () => {
   return (
-    <section className="py-12">
+    <MaxWidthContainer as="section" className="py-12">
       <div className="container mx-auto">
         <h2 className="mb-8 text-center text-3xl font-bold">
           Client Success Stories
@@ -97,7 +98,7 @@ const LinkedinReviews = () => {
           <button className="btn btn-primary">Read More Stories</button>
         </div>
       </div>
-    </section>
+    </MaxWidthContainer>
   );
 };
 

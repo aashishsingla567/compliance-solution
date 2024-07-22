@@ -8,28 +8,41 @@
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "isolatedModules": true,
-
     /* Strictness */
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "checkJs": true,
-
     /* Bundled projects */
-    "lib": ["dom", "dom.iterable", "ES2022"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "ES2022"
+    ],
     "noEmit": true,
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "jsx": "preserve",
-    "plugins": [{ "name": "next" }],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "incremental": true,
-
     /* Path Aliases */
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*"],
-      "@components/*": ["./src/components/*"],
-      "@tools/*": ["./src/tools/*"],
-      "@assets/*": ["./src/assets/*"]
+      "~/*": [
+        "./src/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@tools/*": [
+        "./src/tools/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ]
     }
   },
   "include": [
@@ -41,6 +54,11 @@
     "**/*.js",
     ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules", "next.config.js"],
-  "ignore": ["next.config.js"]
+  "exclude": [
+    "node_modules",
+    "next.config.js"
+  ],
+  "ignore": [
+    "next.config.js"
+  ]
 }

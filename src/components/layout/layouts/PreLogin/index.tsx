@@ -3,7 +3,7 @@ import Header from "./Header";
 
 const PreLogin = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
+    <div data-theme={"light"}>
       <Header />
       {children}
       <Footer />
